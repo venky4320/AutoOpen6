@@ -11,7 +11,7 @@ import {CiLinkedin} from "react-icons/ci"
 import {FaInstagram} from "react-icons/fa"
 const Home = () => {
 
-  const initialState = { name: "", email: "",success:"" };
+  const initialState = { name: "", email: "" };
   const [formVal, setForm] = useState(initialState);
   const [formErrors, setFormErrors] = useState({});
 
